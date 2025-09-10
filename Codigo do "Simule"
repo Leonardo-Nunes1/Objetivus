@@ -74,8 +74,8 @@
       let rendimento = montante - valor;
 
       document.getElementById("resultado").innerHTML =
-        `💰 Valor Final: R$ ${montante.toFixed(2)} <br>
-         📈 Rendimento: R$ ${rendimento.toFixed(2)} `;
+        ` Valor Final: R$ ${montante.toFixed(2)} <br>
+          Rendimento: R$ ${rendimento.toFixed(2)} `;
     }
   </script>
 
