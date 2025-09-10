@@ -55,7 +55,7 @@
       let tipoJuros = document.getElementById("tipoJuros").value;
 
       if (isNaN(valor) || isNaN(tempo) || isNaN(juros)) {
-        document.getElementById("resultado").innerHTML = "⚠️ Preencha todos os campos corretamente.";
+        document.getElementById("resultado").innerHTML = " Preencha todos os campos corretamente.";
         return;
       }
 
